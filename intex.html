@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enquiry Form</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- bootstrap link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container maindiv">
+      <!-- heading & logo -->
+      <div class="heading">
+        <div class="head"><h1>Enquiry Form</h1></div>
+        <div class="logoimg">
+          <img src="logo.jpg" alt="no image" />
+        </div>
+      </div>
+      <hr />
+
+      <!-- text -->
+
+      <form class="row g-3 needs-validation" id="form">
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Firstname"
+            placeholder="Enter your name"
+            required
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Lastname"
+            placeholder="Enter your Lastname"
+            required
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small class="hidden">Error message</small>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom02" class="form-label"
+            >Date Of Birth</label
+          >
+          <input type="date" class="form-control" id="DOB" required />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustomUsername" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <!-- <span class="input-group-text" id="inputGroupPrepend">@</span> -->
+            <input
+              type="text"
+              class="form-control"
+              id="Email"
+              aria-describedby="inputGroupPrepend"
+              placeholder="Enter your Email"
+              required
+            />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom02" class="form-label"
+            >Qualification</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="Qualification"
+            placeholder="Enter your Qualification"
+            required
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom02" class="form-label"
+            >Name of The college</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="College"
+            placeholder="Enter Your college name"
+            required
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom02" class="form-label"
+            >Name of The Organisation</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="organisation"
+            placeholder="Enter Your organisation"
+            required
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom02" class="form-label"
+            >Year of Study</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="year"
+            placeholder="Year of Study"
+            required
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom02" class="form-label"
+            >Years of Experience</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="experience"
+            placeholder="Enter Your Experience"
+            required
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom03" class="form-label">City</label>
+          <select class="form-select" id="city" required>
+            <option selected disabled value="">Enter Your City</option>
+            <option>Ariyalur</option>
+            <option>Chengalpattu</option>
+            <option>Chennai</option>
+            <option>Coimbatore</option>
+            <option>Cuddalore</option>
+            <option>Dharmapuri</option>
+            <option>Dindigul</option>
+            <option>Erode</option>
+            <option>Kallakurichi</option>
+            <option>Kanchipuram</option>
+            <option>Kanniyakumari</option>
+            <option>Karur</option>
+            <option>Madurai</option>
+            <option>Nagapattinam</option>
+            <option>Namakkal</option>
+            <option>Perambalur</option>
+            <option>Pudukkottai</option>
+            <option>Ramanathapuram</option>
+            <option>Ranipete</option>
+            <option>Salem</option>
+            <option>Sivaganga</option>
+            <option>Tenkasi</option>
+            <option>Thanjavur</option>
+            <option>The Nilgiris</option>
+            <option>Theni</option>
+            <option>Thiruvallur</option>
+            <option>Thiruvarur</option>
+            <option>Tiruchirappalli</option>
+            <option>Tirunelveli</option>
+            <option>Tirupathur</option>
+            <option>Tiruppur</option>
+            <option>Tiruvannamalai</option>
+            <option>Tuticorin</option>
+            <option>Vellore</option>
+            <option>Villupuram</option>
+            <option>Virudhunagar</option>
+          </select>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="state" required>
+            <option selected disabled value="">Enter Your State</option>
+            <option>Tamil Nadu</option>
+            <option>karnataka</option>
+            <option>Andhra Pradesh</option>
+            <option>uttar Pradesh</option>
+          </select>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+        <div class="col-md-4 one">
+          <label for="validationCustom05" class="form-label">Pincode</label>
+          <input
+            type="number"
+            class="form-control"
+            id="pin"
+            placeholder="Enter Your Pincode"
+            required
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom05" class="form-label">Phone</label>
+          <input
+            type="number"
+            class="form-control"
+            id="phone"
+            placeholder="Enter Your Phone Number"
+            required
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+
+        <div class="col-md-4 one">
+          <label for="validationCustom04" class="form-label"
+            >AREAS OF INTEREST (In the order of perferernce)</label
+          >
+          <select class="form-select" id="course" required>
+            <option selected disabled value="">Any one Interset</option>
+            <option>cloud</option>
+            <option>Full Stack Web Development</option>
+            <option>Data Science</option>
+            <option>Others</option>
+          </select>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+
+        <div class="col-md-4 ">
+          <label for="validationCustom04" class="form-label"
+            >How did you get to know about Edureka?</label
+          >
+          <select class="form-select" id="refer" required>
+            <option selected disabled value="">Any one</option>
+            <option>From Friend</option>
+            <option>Paper Ads</option>
+            <option>Paper Insserts</option>
+            <option>Social Media</option>
+            <option>TV Ads</option>
+            <option>Hoardings</option>
+            <option>Others</option>
+          </select>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="tc"
+              required
+            />
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
